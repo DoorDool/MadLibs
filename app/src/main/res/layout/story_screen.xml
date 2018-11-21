@@ -29,5 +29,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:padding="12dp"
+        android:onClick="choose"
         android:text="make another story" />
 </LinearLayout>

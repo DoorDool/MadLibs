@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void play(View view) {
 
-        Intent secondScreen = new Intent(this, input.class);
+        Intent secondScreen = new Intent(this, choise.class);
         startActivity(secondScreen);
     }
 }

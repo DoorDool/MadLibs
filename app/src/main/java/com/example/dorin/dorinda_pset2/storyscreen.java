@@ -26,4 +26,10 @@ public class storyscreen extends Activity {
         storyview.setText(completedstory.toString());
     }
 
+    public void choose (View view) {
+
+        Intent choise_screen = new Intent (this, choise.class);
+        startActivity(choise_screen);
+    }
+
 }

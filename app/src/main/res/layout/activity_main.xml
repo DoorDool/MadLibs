@@ -13,17 +13,16 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="275dp"
-        android:layout_height="205dp"
+        android:layout_width="wrap_content"
+        android:layout_height="245dp"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
         android:padding="12dp"
         app:srcCompat="@drawable/madlibs" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="303dp"
-        android:layout_height="63dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
         android:gravity="center_horizontal"
@@ -31,10 +30,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="206dp"
-        android:layout_height="31dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_weight="1"
         android:onClick="play"
         android:text="Get Started!"
         android:textSize="24sp" />
