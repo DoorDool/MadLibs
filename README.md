@@ -1,6 +1,6 @@
 # MadLibs
 
-This is a game works as follow:
+This app is a game and works as follow:
 
 First click on "GET STARTED".
 
