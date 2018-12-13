@@ -25,3 +25,5 @@ If all words are filled in your story appear with your filled in words. When you
 The pictogram of the app is like this:
 
 ![picto](app/src/main/res/drawable/pictogram.png)
+
+Extra: bold text is not available, because this app is in API 22, i have not found a way to make bold text in API 22. 
