@@ -17,7 +17,7 @@ When you have choosed a story, you have to fill in words.
 ![layout](app/src/main/res/drawable/input.png) 
 ![layout](app/src/main/res/drawable/input_land.png)
 
-If all words are filled in your story appear with your filled in words. When you click on "MAKE ANOTHER STORY" you go back to the choise screen and you can make again a story.
+If all words are filled in your story appear with your filled in words. When you click on "MAKE ANOTHER STORY" you go back to the choise screen and you can make a story again.
 
 ![layout](app/src/main/res/drawable/story.png) 
 ![layout](app/src/main/res/drawable/story_land.png)
