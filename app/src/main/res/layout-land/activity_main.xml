@@ -31,13 +31,15 @@
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="@color/colorPrimaryDark" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="right"
+            android:backgroundTint="@color/colorAccent"
             android:onClick="play"
             android:text="Get Started!"
             android:textSize="24sp" />

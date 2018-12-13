@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".input">
+            android:name=".InputActivity">
         </activity>
         <activity
-            android:name=".storyscreen">
+            android:name=".StoryscreenActivity">
         </activity>
         <activity
-            android:name=".choise">
+            android:name=".ChoiseActivity">
         </activity>
     </application>
 

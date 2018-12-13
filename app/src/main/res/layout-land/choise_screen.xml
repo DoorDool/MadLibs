@@ -5,13 +5,14 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/infoText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:padding="30dp"
-        android:text="Choose which story you want"
+        android:text="Choose which story you want:"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp" />
 
     <LinearLayout
@@ -27,30 +28,33 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/button_simple"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorAccent"
+                android:onClick="make"
                 android:text="Simple"
-
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button_tarzan"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="12dp"
+                android:backgroundTint="@color/colorAccent"
                 android:onClick="make"
                 android:text="Tarzan"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/button_university"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/colorAccent"
                 android:onClick="make"
                 android:text="University"
                 android:textSize="18sp" />
@@ -63,24 +67,26 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/button_clothes"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/colorAccent"
                 android:onClick="make"
                 android:text="clothes"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/button_dance"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="12dp"
                 android:onClick="make"
                 android:text="Dance"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorAccent" />
         </LinearLayout>
     </LinearLayout>
 

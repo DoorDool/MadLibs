@@ -2,21 +2,9 @@
  * Story.java
  * Madlibs
  *
- * Created by Hella Haanstra on April 15, 2016
- *
- * Based on: CS 193A, Marty Stepp
- *
  * This class represents a Mad Libs story that comes from a text file.
- * You can construct it and pass an input stream or Scanner to read the story text.
- * After constructing it, you can ask it for each placeholder by calling
- *  getNextPlaceholder, then filling in that placeholder by calling fillInPlaceholder.
- * To see how many placeholders are left, use the methods
- *  getPlaceholderRemainingCount and isFilledIn.
- * You can get the story's text by calling its toString method.
- * A Story is Serializable, so it can be packed into an Intent as "extra" data.
  */
 
-// !YOU MAY WANT TO CHANGE THE PACKAGE BELOW SO THAT IT MATCHES YOUR PROJECT'S PACKAGE!
 package com.example.dorin.dorinda_pset2;
 
 import java.io.*;
@@ -34,10 +22,11 @@ public class Story implements Serializable {
         placeholders = new ArrayList<String>();
         filledIn = 0;
         htmlMode = false;
+
         clear();
     }
 
-    /** constructs a new Story reading its text from the given input stream */
+    /** constructs a new Story reading its text from the given InputActivity stream */
     public Story(InputStream stream) {
         read(stream);
     }
@@ -52,7 +41,7 @@ public class Story implements Serializable {
     /** replaces the next unfilled placeholder with the given word */
     public void fillInPlaceholder(String word) {
         if (!isFilledIn()) {
-            text = text.replace("<" + filledIn + ">", word);
+            text = text.replace("<" + filledIn + ">",  word);
             filledIn++;
         }
     }
@@ -82,7 +71,7 @@ public class Story implements Serializable {
         return filledIn >= placeholders.size();
     }
 
-    /** reads initial story text from the given input stream */
+    /** reads initial story text from the given InputActivity stream */
     public void read(InputStream stream) {
         read(new Scanner(stream));
     }
