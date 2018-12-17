@@ -4,23 +4,23 @@ This app is a game and works as follow:
 
 First click on "GET STARTED".
 
-![layout](app/src/main/res/drawable/main.png) 
-![layout](app/src/main/res/drawable/main_land.png)
+<img src="https://github.com/DoorDool/MadLibs/blob/master/app/src/main/res/drawable/main.png" width="250">
+<img src="https://github.com/DoorDool/MadLibs/blob/master/app/src/main/res/drawable/main_land.png" width="400">
 
 After that you can choose between five stories.
 
-![layout](app/src/main/res/drawable/choise.png) 
-![layout](app/src/main/res/drawable/choise_land.png)
+<img src="https://github.com/DoorDool/MadLibs/blob/master/app/src/main/res/drawable/choise.png" width="250">
+<img src="https://github.com/DoorDool/MadLibs/blob/master/app/src/main/res/drawable/choise_land.png" width="400">
 
 When you have choosed a story, you have to fill in words.
 
-![layout](app/src/main/res/drawable/input.png) 
-![layout](app/src/main/res/drawable/input_land.png)
+<img src="https://github.com/DoorDool/MadLibs/blob/master/app/src/main/res/drawable/input.png" width="250">
+<img src="https://github.com/DoorDool/MadLibs/blob/master/app/src/main/res/drawable/input_land.png" width="400">
 
 If all words are filled in your story appear with your filled in words. When you click on "MAKE ANOTHER STORY" you go back to the choise screen and you can make a story again.
 
-![layout](app/src/main/res/drawable/story.png) 
-![layout](app/src/main/res/drawable/story_land.png)
+<img src="https://github.com/DoorDool/MadLibs/blob/master/app/src/main/res/drawable/story.png" width="250">
+<img src="https://github.com/DoorDool/MadLibs/blob/master/app/src/main/res/drawable/story_land.png" width="400">
 
 The pictogram of the app is like this:
 
